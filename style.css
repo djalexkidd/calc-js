@@ -1,3 +1,9 @@
+/* Importation de la police */
+@font-face {
+    font-family: "display";
+    src: url("./display.ttf") format("truetype");
+}   
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +23,8 @@
     border: 5px solid lightblue;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 50px;
+    font-size: 100px;
+    font-family: "display";
 }
 
 .touches {

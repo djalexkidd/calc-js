@@ -9,29 +9,29 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="screen">
-            <span>0</span>
+        <div class="screen" id="test">
+            <span></span>
         </div>
         <!-- Pour ceux qui vont styliser leur calculatrice, on définit ici 3 zones, les digitaux, les opérateur et clear (AC) -->
         <!-- attribut data-MotChoisiParSens sert par convention et nous permet de stocker des donnés et donc ici des valeurs permetant d'être utilisées plus tard en JS.-->
         <div class="touches">
-            <div data-key="AC" class="clear">AC</div>
-            <div data-key="/" class="operator">/</div>
-            <div data-key="7" class="digit">7</div>
-            <div data-key="8" class="digit">8</div>
-            <div data-key="9" class="digit">9</div>
-            <div data-key="*" class="operator">x</div>
-            <div data-key="4" class="digit">4</div>
-            <div data-key="5" class="digit">5</div>
-            <div data-key="6" class="digit">6</div>
-            <div data-key="-" class="operator">-</div>
-            <div data-key="1" class="digit">1</div>
-            <div data-key="2" class="digit">2</div>
-            <div data-key="3" class="digit">3</div>
-            <div data-key="+" class="operator">+</div>
-            <div data-key="0" class="digit">0</div>
+            <div data-key="AC" class="clear" onclick="allclear()">AC</div>
+            <div data-key="/" class="operator" onclick="adddivide()">/</div>
+            <div data-key="7" class="digit" onclick="add7()">7</div>
+            <div data-key="8" class="digit" onclick="add8()">8</div>
+            <div data-key="9" class="digit" onclick="add9()">9</div>
+            <div data-key="*" class="operator" onclick="addmultiplicator()">x</div>
+            <div data-key="4" class="digit" onclick="add4()">4</div>
+            <div data-key="5" class="digit" onclick="add5()">5</div>
+            <div data-key="6" class="digit" onclick="add6()">6</div>
+            <div data-key="-" class="operator" onclick="adddifference()">-</div>
+            <div data-key="1" class="digit" onclick="add1()">1</div>
+            <div data-key="2" class="digit" onclick="add2()">2</div>
+            <div data-key="3" class="digit" onclick="add3()">3</div>
+            <div data-key="+" class="operator" onclick="addsum()">+</div>
+            <div data-key="0" class="digit" onclick="add0()">0</div>
             <div data-key="." class="digit">,</div>
-            <div data-key="=" class="operator">=</div>
+            <div data-key="=" class="operator" onclick="equal()">=</div>
         </div>
     </div>
     <script src="./script.js"></script>
