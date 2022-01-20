@@ -67,3 +67,61 @@ function adddivide() {
 function addpoint() {
     div.value += ".";
 }
+
+document.addEventListener('keydown', function(e){
+    if(e.keyCode === 97){
+        add1();
+    }
+    else if(e.keyCode === 98){
+        add2();
+    }
+    else if(e.keyCode === 99){
+        add3();
+    }
+    else if(e.keyCode === 100){
+        add4();
+    }
+    else if(e.keyCode === 101){
+        add5();
+    }
+    else if(e.keyCode === 102){
+        add6();
+    }
+    else if(e.keyCode === 103){
+        add7();
+    }
+    else if(e.keyCode === 104){
+        add8();
+    }
+    else if(e.keyCode === 105){
+        add9();
+    }
+    else if(e.keyCode === 96){
+        add0();
+    }
+    else if(e.keyCode === 107){
+        addsum();
+    }
+    else if(e.keyCode === 109){
+        adddifference();
+    }
+    else if(e.keyCode === 107){
+        addsum();
+    }
+    else if(e.keyCode === 106){
+        addmultiplicator();
+    }
+    else if(e.keyCode === 111){
+        adddivide();
+    }
+    else if(e.keyCode === 13){
+        equal();
+    }
+    else if(e.keyCode === 27){
+        allclear();
+    }
+    else if(e.keyCode === 190){
+        addpoint();
+    }
+}
+);
