@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="screen" id="test">
-            <span></span>
+        <div class="screen">
+            <input id="compute"></input>
         </div>
         <!-- Pour ceux qui vont styliser leur calculatrice, on définit ici 3 zones, les digitaux, les opérateur et clear (AC) -->
         <!-- attribut data-MotChoisiParSens sert par convention et nous permet de stocker des donnés et donc ici des valeurs permetant d'être utilisées plus tard en JS.-->
@@ -30,7 +30,7 @@
             <div data-key="3" class="digit" onclick="add3()">3</div>
             <div data-key="+" class="operator" onclick="addsum()">+</div>
             <div data-key="0" class="digit" onclick="add0()">0</div>
-            <div data-key="." class="digit">,</div>
+            <div data-key="." class="digit" onclick="addpoint()">.</div>
             <div data-key="=" class="operator" onclick="equal()">=</div>
         </div>
     </div>

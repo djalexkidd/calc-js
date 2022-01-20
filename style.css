@@ -23,8 +23,6 @@
     border: 5px solid lightblue;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 100px;
-    font-family: "display";
 }
 
 .touches {
@@ -50,4 +48,11 @@ div[data-key = AC] {
 
 div[data-key = '0'] {
     grid-column: 1/3;
+}
+
+input {
+    font-size: 100px;
+    font-family: "display";
+    text-align: end;
+    border: 0;
 }

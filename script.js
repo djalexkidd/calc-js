@@ -1,65 +1,69 @@
-var div = document.getElementById('test');
+var div = document.getElementById('compute');
 
 function add1() {
-    div.innerHTML += 1;
+    div.value += 1;
 }
 
 function add2() {
-    div.innerHTML += 2;
+    div.value += 2;
 }
 
 function add3() {
-    div.innerHTML += 3;
+    div.value += 3;
 }
 
 function add4() {
-    div.innerHTML += 4;
+    div.value += 4;
 }
 
 function add5() {
-    div.innerHTML += 5;
+    div.value += 5;
 }
 
 function add6() {
-    div.innerHTML += 6;
+    div.value += 6;
 }
 
 function add7() {
-    div.innerHTML += 7;
+    div.value += 7;
 }
 
 function add8() {
-    div.innerHTML += 8;
+    div.value += 8;
 }
 
 function add9() {
-    div.innerHTML += 9;
+    div.value += 9;
 }
 
 function add0() {
-    div.innerHTML += 0;
+    div.value += 0;
 }
 
 function equal() {
-    eval(div.innerHTML);
+    div.value = eval(div.value);
 }
 
 function allclear() {
-    div.innerHTML = "";
+    div.value = "";
 }
 
 function addmultiplicator() {
-    div.innerHTML += "*";
+    div.value += "*";
 }
 
 function adddifference() {
-    div.innerHTML += "-";
+    div.value += "-";
 }
 
 function addsum() {
-    div.innerHTML += "+";
+    div.value += "+";
 }
 
 function adddivide() {
-    div.innerHTML += "/";
+    div.value += "/";
+}
+
+function addpoint() {
+    div.value += ".";
 }
