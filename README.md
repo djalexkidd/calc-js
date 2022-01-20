@@ -2,6 +2,8 @@
 
 Une calculette basique faite en JavaScript pour un devoir de l'IMTS à rendre le Vendredi 21 Janvier 2022 à 9:00.
 
+<a href="https://djalexkidd.github.io/calc-js/">Lien de la page web</a>
+
 ## Comment ça fonctionne ?
 
 L'écran est tout simplement une zone de texte ```input```, lorsque vous cliquez sur les touches, sa valeur est insérée dans le ```input```.
